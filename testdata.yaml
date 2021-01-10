@@ -1,0 +1,25 @@
+## Question3 ##
+TEST_URL: http://the-internet.herokuapp.com/login
+BROWSER: chrome
+valid_account:
+    username: tomsmith
+    password: SuperSecretPassword!
+invalid_account:
+    username: hacker
+    password: IncorrectPassword1
+login_header:
+    success: You logged into a secure area!
+    incorrect_username: Your username is invalid!
+    incorrect_password: Your password is invalid!
+
+## Question4 ##
+TEST_API: https://reqres.in/api/users
+test_id:
+    valid: 12
+    invalid: 1234
+user_information:
+    id: '12'
+    email: rachel.howell@reqres.in
+    firstname: Rachel
+    lastname: Howell
+    avatar: https://reqres.in/img/faces/12-image.jpg
